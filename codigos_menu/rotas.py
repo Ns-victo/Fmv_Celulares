@@ -10,6 +10,7 @@ from views.tabela_produtos import produtos_estoque
 from views.lista_os import lista_os
 from views.os_finalizada import os_finalizada
 
+
 def rotas(page: ft.Page):
     app_routes = [
         path(url='/', clear=True, view=menu),
